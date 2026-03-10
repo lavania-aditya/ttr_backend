@@ -1,0 +1,163 @@
+# --- Operating system files ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Python bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Python packaging ---
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- PyInstaller ---
+*.manifest
+*.spec
+
+# --- Installer logs ---
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Unit test / coverage ---
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.log
+coverage/
+.pytest_cache/
+.hypothesis/
+pytestdebug.log
+
+# --- Type checkers & linters ---
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+ruff_cache/
+
+# --- Virtual environments ---
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# --- Django ---
+local_settings.py
+settings_local.py
+instance/
+*.sqlite3
+*.sqlite3-journal
+media/
+static/
+staticfiles/
+collectstatic/
+celerybeat-schedule
+celerybeat.pid
+
+# --- Logs & runtime artifacts ---
+logs/
+*.log
+*.pid
+*.seed
+*.out
+*.err
+
+# --- IDE / Editor directories ---
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# --- Jupyter & science tools ---
+.ipynb_checkpoints/
+.pybreadcrumb
+
+# --- Node / frontend ---
+node_modules/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- Miscellaneous ---
+*.swp
+*.swo
+*.orig
+*.rej
+*.bak
+*.tmp
+*~
+.trash/
+
+# --- Cache / lock files ---
+.cache/
+**/__pypackages__/
+poetry.lock
+pdm.lock
+pipenv.lock
+
+# --- Deployment ---
+*.env.local
+*.env.development
+*.env.production
+.envrc
+
+# --- Cloud providers ---
+.gcloud/
+.aws/
+.azure/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+
+# --- Database dumps ---
+*.psql
+*.sql
+*.sqlite
+
+# --- Coverage reports ---
+coverage-report/
+*.lcov
+
+# --- Media & assets ---
+*.tar
+*.gz
+*.zip
+*.rar
+*.7z
+
+# --- Custom ---
+backup/
+secrets/
